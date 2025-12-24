@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.hint {
+  color: #555;
+  font-size: 13px;
+}
