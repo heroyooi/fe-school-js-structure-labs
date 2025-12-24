@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#tabs {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.tab {
+  padding: 8px 10px;
+  border: 1px solid #999;
+  background: #fff;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #4f46e5;
+  color: #fff;
+  border-color: #4f46e5;
+}
+
+.panel {
+  border: 1px solid #ddd;
+  padding: 14px;
+  margin-top: 10px;
+}
