@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lesson 06 Assignment - Global Store</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Lesson 06 Assignment</h1>
+    <p>전역 store + subscribe로 로그인 상태를 공유하세요.</p>
+
+    <header id="header"></header>
+
+    <div class="controls">
+      <button id="login" type="button">Login</button>
+      <button id="logout" type="button">Logout</button>
+    </div>
+
+    <p class="hint">
+      규칙: 버튼 이벤트에서 header DOM을 직접 수정하지 말고, store.setState()만
+      호출하세요.
+    </p>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
