@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#parent {
+  border: 1px solid #999;
+  padding: 14px;
+  margin: 10px 0;
+}
+
+#child {
+  margin-left: 10px;
+  padding: 6px 10px;
+}
+
+#tabs {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.tab {
+  padding: 8px 10px;
+  border: 1px solid #999;
+  background: #fff;
+  cursor: pointer;
+}
+
+#log {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.hint {
+  color: #555;
+  font-size: 13px;
+}
